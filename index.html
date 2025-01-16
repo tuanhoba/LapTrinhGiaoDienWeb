@@ -1,82 +1,170 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Môn Lập Trình Giao Diện Web | Thạc sĩ Hoàng Quốc Tuấn</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
-    <div class="container mt-5">
+    <div class="container my-5">
         <header class="text-center mb-4">
-            <h1 class="text-primary">Môn Lập Trình Giao Diện Web</h1>
-            <h2 class="text-secondary">Giảng viên: Thạc sĩ Hoàng Quốc Tuấn</h2>
+            <h1 class="display-4">Môn Lập Trình Giao Diện Web</h1>
+            <p class="lead">Giảng viên: Thạc sĩ Hoàng Quốc Tuấn</p>
         </header>
 
-        <section>
-            <h3 class="text-info">Mục tiêu khóa học</h3>
-            <p>Môn học Lập Trình Giao Diện Web trang bị cho sinh viên các kiến thức cơ bản và nâng cao về phát triển giao diện web, sử dụng các công nghệ hiện đại trong việc xây dựng các website tương tác và đáp ứng nhu cầu của người dùng. Sau khóa học, sinh viên có thể:</p>
-            <ul>
-                <li>Hiểu được cách xây dựng giao diện web chuyên nghiệp, đẹp mắt và dễ sử dụng.</li>
-                <li>Làm quen với các công cụ và thư viện hỗ trợ phát triển giao diện web (HTML, CSS, JavaScript, Bootstrap, jQuery, v.v).</li>
-                <li>Tạo ra các website với khả năng tương tác tốt, tương thích với nhiều thiết bị khác nhau (Responsive Design).</li>
-                <li>Phát triển kỹ năng làm việc nhóm, xây dựng và tối ưu hóa giao diện web.</li>
+        <section id="objectives" class="mb-5">
+            <h2>Mục tiêu khóa học</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Hiểu cách xây dựng giao diện web chuyên nghiệp, đẹp mắt và dễ sử dụng.</li>
+                <li class="list-group-item">Làm quen với các công cụ và thư viện hỗ trợ phát triển giao diện web (HTML, CSS, JavaScript, Bootstrap, jQuery, v.v).</li>
+                <li class="list-group-item">Tạo ra các website tương thích với nhiều thiết bị (Responsive Design).</li>
+                <li class="list-group-item">Phát triển kỹ năng làm việc nhóm, xây dựng và tối ưu hóa giao diện web.</li>
             </ul>
         </section>
 
-        <section>
-            <h3 class="text-info">Điều kiện học</h3>
-            <ul>
-                <li>Sinh viên cần có kiến thức cơ bản về tin học và sử dụng máy tính.</li>
-                <li>Không yêu cầu kinh nghiệm lập trình trước khi học.</li>
-                <li>Sinh viên cần tham gia đầy đủ các bài học lý thuyết và thực hành.</li>
-                <li>Sinh viên nên có máy tính cá nhân hoặc thiết bị có thể cài đặt phần mềm lập trình và duyệt web.</li>
-            </ul>
-        </section>
+        <section id="content" class="mb-5">
+            <h2>Nội dung chi tiết khóa học</h2>
 
-        <section>
-            <h3 class="text-info">Nội dung chi tiết khóa học</h3>
-            <article>
-                <h4 class="text-warning">Bài 1: Giới thiệu về Lập Trình Giao Diện Web</h4>
-                <ul>
-                    <li>Tổng quan về lập trình web.</li>
-                    <li>Các thành phần cơ bản của một trang web: HTML, CSS, JavaScript.</li>
-                    <li>Quá trình phát triển giao diện web.</li>
-                    <li>Các công cụ hỗ trợ phát triển giao diện web.</li>
-                </ul>
-                <p><strong>Bài lab 1:</strong> Làm quen với HTML và cấu trúc của một trang web</p>
-                <ol>
-                    <li>Xây dựng một trang web đơn giản với HTML.</li>
-                    <li>Cấu trúc cơ bản của HTML, thẻ meta, link và script.</li>
-                </ol>
-            </article>
-
-            <!-- Các bài học khác tương tự được thêm vào đây -->
-        </section>
-
-        <section class="mt-4">
-            <h3 class="text-info">Yêu cầu chung cho tất cả bài tập</h3>
-            <ul>
-                <li><strong>Chú ý:</strong> Học sinh dùng OBS để quay lại bài tập có camera hình cá nhân lúc quay.</li>
-                <li>Khi nộp bài gồm file gốc và video.</li>
-                <li>Video custom đưa lên mạng xã hội như YouTube, Zalo,... sẽ được cộng điểm.</li>
-                <li>Ưu tiên sáng tạo và phát triển bài tập. Học sinh có bài tập vượt trội nhất lớp sẽ được tuyển đi thi đấu và miễn thi.</li>
-            </ul>
+            <div class="accordion" id="courseContent">
+                <!-- Bài 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Bài 1: Giới thiệu về Lập Trình Giao Diện Web
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#courseContent">
+                        <div class="accordion-body">
+                            <p>- Tổng quan về lập trình web.</p>
+                            <p>- Các thành phần cơ bản: HTML, CSS, JavaScript.</p>
+                            <p>- Quá trình phát triển giao diện web.</p>
+                            <p>- Công cụ hỗ trợ phát triển giao diện web.</p>
+                            <strong>Bài lab 1:</strong>
+                            <p>Xây dựng một trang web giới thiệu bản thân sử dụng các thẻ cơ bản như &lt;h1&gt;, &lt;p&gt;, &lt;img&gt;, &lt;a&gt;.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bài 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Bài 2: HTML - Ngôn ngữ đánh dấu siêu văn bản
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#courseContent">
+                        <div class="accordion-body">
+                            <p>- Các thẻ cơ bản: &lt;div&gt;, &lt;span&gt;, &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, v.v.</p>
+                            <p>- Tạo bảng, form và danh sách trong HTML.</p>
+                            <strong>Bài lab 2:</strong>
+                            <p>Thiết kế trang thông tin lớp học sử dụng các thẻ bảng, danh sách và form.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bài 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Bài 3: CSS - Cách tạo kiểu cho trang web
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#courseContent">
+                        <div class="accordion-body">
+                            <p>- Khái niệm về CSS và cách áp dụng vào HTML.</p>
+                            <p>- Các thuộc tính CSS: font, màu sắc, căn chỉnh, padding, margin.</p>
+                            <strong>Bài lab 3:</strong>
+                            <p>Thiết kế giao diện trang web giới thiệu công ty với giao diện đẹp, bao gồm logo và menu.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bài 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Bài 4: Responsive Web Design - Thiết kế giao diện đáp ứng
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#courseContent">
+                        <div class="accordion-body">
+                            <p>- Khái niệm về thiết kế web đáp ứng.</p>
+                            <p>- Media Queries trong CSS.</p>
+                            <strong>Bài lab 4:</strong>
+                            <p>Thiết kế trang web bán hàng trực tuyến với giao diện hiển thị tốt trên mọi thiết bị.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bài 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Bài 5: JavaScript - Lập trình giao diện web
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#courseContent">
+                        <div class="accordion-body">
+                            <p>- Giới thiệu về JavaScript và cách tích hợp JavaScript vào HTML.</p>
+                            <p>- Các câu lệnh cơ bản: biến, hàm, vòng lặp.</p>
+                            <strong>Bài lab 5:</strong>
+                            <p>Thiết kế form đăng ký kiểm tra tính hợp lệ của dữ liệu với JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bài 6 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Bài 6: JQuery - Thư viện JavaScript phổ biến
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#courseContent">
+                        <div class="accordion-body">
+                            <p>- Giới thiệu về jQuery và cách sử dụng để thao tác với DOM.</p>
+                            <p>- Các hiệu ứng cơ bản: ẩn/hiện, chuyển động, thay đổi thuộc tính.</p>
+                            <strong>Bài lab 6:</strong>
+                            <p>Thêm các hiệu ứng động và chức năng AJAX vào trang web với jQuery.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bài 7 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            Bài 7: Bootstrap - Framework thiết kế giao diện
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#courseContent">
+                        <div class="accordion-body">
+                            <p>- Giới thiệu về Bootstrap và cách sử dụng Bootstrap để tạo giao diện đẹp.</p>
+                            <p>- Các thành phần của Bootstrap: Grid System, Buttons, Forms, Navigation Bars.</p>
+                            <strong>Bài lab 7:</strong>
+                            <p>Thiết kế giao diện trang chủ của một doanh nghiệp với Bootstrap.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bài 8 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            Bài 8: Tối ưu hóa và kiểm thử giao diện web
+                        </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#courseContent">
+                        <div class="accordion-body">
+                            <p>- Các kỹ thuật tối ưu hóa giao diện web.</p>
+                            <p>- Kiểm thử và sửa lỗi giao diện web.</p>
+                            <strong>Bài lab 8:</strong>
+                            <p>Kiểm thử hiệu suất trang web và áp dụng các biện pháp tối ưu hóa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <footer class="text-center mt-5">
-            <p>Thông tin liên hệ:</p>
-            <ul class="list-unstyled">
-                <li><a href="http://hoangquoctuan.net">Hoàng Quốc Tuấn</a></li>
-                <li><a href="http://daksystem.net">Công ty thiết kế web tại Đắk Lắk</a></li>
-                <li><a href="http://dakdesign.net">Thiết kế website tại Đắk Lắk</a></li>
-            </ul>
+            <p>Thông tin liên hệ: <a href="http://hoangquoctuan.net">Hoàng Quốc Tuấn</a></p>
         </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
