@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Môn Lập Trình Giao Diện Web</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABzAiN6r6M6c2DQyTtTqP7L9Ow5n6vW7aQw7mX8R3f4dLE8hT7v66qR" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container my-5">
-        <header class="text-center mb-5">
-            <h1 class="display-4">Môn Lập Trình Giao Diện Web</h1>
-            <p class="lead">**Giảng viên:** Thạc sĩ Hoàng Quốc Tuấn</p>
+
+    <div class="container mt-4">
+        <header class="mb-4">
+            <h1 class="text-center">Môn Lập Trình Giao Diện Web</h1>
+            <p class="text-center"><strong>Giảng viên:</strong> Thạc sĩ Hoàng Quốc Tuấn</p>
         </header>
 
-        <section class="mb-5">
-            <h2 class="h3">Mục tiêu khóa học</h2>
+        <section>
+            <h2>Mục tiêu khóa học</h2>
+            <p>Môn học Lập Trình Giao Diện Web trang bị cho sinh viên các kiến thức cơ bản và nâng cao về phát triển giao diện web, sử dụng các công nghệ hiện đại trong việc xây dựng các website tương tác và đáp ứng nhu cầu của người dùng. Sau khóa học, sinh viên có thể:</p>
             <ul>
                 <li>Hiểu được cách xây dựng giao diện web chuyên nghiệp, đẹp mắt và dễ sử dụng.</li>
                 <li>Làm quen với các công cụ và thư viện hỗ trợ phát triển giao diện web (HTML, CSS, JavaScript, Bootstrap, jQuery, v.v).</li>
@@ -25,8 +29,8 @@
             </ul>
         </section>
 
-        <section class="mb-5">
-            <h2 class="h3">Điều kiện học</h2>
+        <section>
+            <h2>Điều kiện học</h2>
             <ul>
                 <li>Sinh viên cần có kiến thức cơ bản về tin học và sử dụng máy tính.</li>
                 <li>Không yêu cầu kinh nghiệm lập trình trước khi học.</li>
@@ -35,165 +39,249 @@
             </ul>
         </section>
 
-        <section class="mb-5">
-            <h2 class="h3">Nội dung chi tiết khóa học</h2>
-
-            <div class="accordion" id="courseContent">
-                <!-- Bài 1 -->
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#lesson1">
-                            Bài 1: Giới thiệu về Lập Trình Giao Diện Web
-                        </button>
-                    </h3>
-                    <div id="lesson1" class="accordion-collapse collapse show" data-bs-parent="#courseContent">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Tổng quan về lập trình web.</li>
-                                <li>Các thành phần cơ bản của một trang web: HTML, CSS, JavaScript.</li>
-                                <li>Quá trình phát triển giao diện web.</li>
-                                <li>Các công cụ hỗ trợ phát triển giao diện web.</li>
-                            </ul>
-                            <p><strong>Bài Lab:</strong> Làm quen với HTML và cấu trúc của một trang web. Tạo một trang web giới thiệu bản thân.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Bài 2 -->
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lesson2">
-                            Bài 2: HTML - Ngôn ngữ đánh dấu siêu văn bản
-                        </button>
-                    </h3>
-                    <div id="lesson2" class="accordion-collapse collapse" data-bs-parent="#courseContent">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Các thẻ cơ bản: <code>&lt;div&gt;</code>, <code>&lt;span&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;a&gt;</code>.</li>
-                                <li>Cách tạo bảng, form và danh sách trong HTML.</li>
-                            </ul>
-                            <p><strong>Bài Lab:</strong> Tạo trang thông tin lớp học sử dụng các thẻ bảng, danh sách và form.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Bài 3 -->
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lesson3">
-                            Bài 3: CSS - Cách tạo kiểu cho trang web
-                        </button>
-                    </h3>
-                    <div id="lesson3" class="accordion-collapse collapse" data-bs-parent="#courseContent">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Khái niệm về CSS và cách áp dụng vào HTML.</li>
-                                <li>Sử dụng các thuộc tính CSS: font, màu sắc, căn chỉnh, padding, margin.</li>
-                                <li>Các phương pháp lựa chọn phần tử CSS: ID, class, thẻ.</li>
-                            </ul>
-                            <p><strong>Bài Lab:</strong> Thiết kế giao diện với CSS cho một trang giới thiệu công ty.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Bài 4 -->
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lesson4">
-                            Bài 4: Responsive Web Design - Thiết kế giao diện đáp ứng
-                        </button>
-                    </h3>
-                    <div id="lesson4" class="accordion-collapse collapse" data-bs-parent="#courseContent">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Khái niệm về thiết kế web đáp ứng.</li>
-                                <li>Sử dụng Media Queries trong CSS.</li>
-                                <li>Tạo giao diện thích ứng với các loại màn hình khác nhau.</li>
-                            </ul>
-                            <p><strong>Bài Lab:</strong> Thiết kế giao diện bán hàng trực tuyến tương thích trên nhiều thiết bị.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Bài 5 -->
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lesson5">
-                            Bài 5: JavaScript - Lập trình giao diện web
-                        </button>
-                    </h3>
-                    <div id="lesson5" class="accordion-collapse collapse" data-bs-parent="#courseContent">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Giới thiệu về JavaScript và cách tích hợp vào HTML.</li>
-                                <li>Các câu lệnh cơ bản: biến, hàm, vòng lặp.</li>
-                                <li>Tương tác với người dùng qua các sự kiện (click, hover, submit).</li>
-                            </ul>
-                            <p><strong>Bài Lab:</strong> Viết JavaScript kiểm tra dữ liệu form đăng ký (tên, email, mật khẩu).</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Bài 6 -->
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lesson6">
-                            Bài 6: JQuery - Thư viện JavaScript phổ biến
-                        </button>
-                    </h3>
-                    <div id="lesson6" class="accordion-collapse collapse" data-bs-parent="#courseContent">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Giới thiệu về jQuery và thao tác với DOM.</li>
-                                <li>Các hiệu ứng cơ bản: ẩn/hiện, chuyển động, thay đổi thuộc tính.</li>
-                                <li>Sự kiện trong jQuery và AJAX cơ bản.</li>
-                            </ul>
-                            <p><strong>Bài Lab:</strong> Thêm hiệu ứng ẩn/hiện nội dung, AJAX hiển thị dữ liệu từ JSON.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Bài 7 -->
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lesson7">
-                            Bài 7: Bootstrap - Framework thiết kế giao diện
-                        </button>
-                    </h3>
-                    <div id="lesson7" class="accordion-collapse collapse" data-bs-parent="#courseContent">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Giới thiệu về Bootstrap và các thành phần cơ bản.</li>
-                                <li>Grid System, Buttons, Forms, Navigation Bars.</li>
-                                <li>Cách sử dụng các lớp CSS và JavaScript của Bootstrap.</li>
-                            </ul>
-                            <p><strong>Bài Lab:</strong> Tạo giao diện trang chủ doanh nghiệp với Bootstrap.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Bài 8 -->
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lesson8">
-                            Bài 8: Tối ưu hóa và kiểm thử giao diện web
-                        </button>
-                    </h3>
-                    <div id="lesson8" class="accordion-collapse collapse" data-bs-parent="#courseContent">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Kỹ thuật tối ưu hóa giao diện web.</li>
-                                <li>Kiểm thử và sửa lỗi giao diện web.</li>
-                                <li>Công cụ hỗ trợ kiểm thử giao diện web (Google Lighthouse).</li>
-                            </ul>
-                            <p><strong>Bài Lab:</strong> Kiểm thử hiệu suất và tối ưu hóa trang web với Google Lighthouse.</p>
-                        </div>
-                    </div>
+        <section>
+            <h2>Nội dung chi tiết khóa học</h2>
+            
+            <!-- Bài 1 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>Bài 1: Giới thiệu về Lập Trình Giao Diện Web</h3>
+                    <ul>
+                        <li>Tổng quan về lập trình web.</li>
+                        <li>Các thành phần cơ bản của một trang web: HTML, CSS, JavaScript.</li>
+                        <li>Quá trình phát triển giao diện web.</li>
+                        <li>Các công cụ hỗ trợ phát triển giao diện web.</li>
+                    </ul>
+                    <h4>Bài lab 1: Làm quen với HTML và cấu trúc của một trang web</h4>
+                    <ul>
+                        <li>Xây dựng một trang web đơn giản với HTML.</li>
+                        <li>Cấu trúc cơ bản của HTML, thẻ meta, link và script.</li>
+                    </ul>
+                    <h5>Hướng dẫn chi tiết:</h5>
+                    <ol>
+                        <li>Tạo một trang web giới thiệu bản thân với các thông tin cơ bản (tên, tuổi, sở thích, ảnh cá nhân).</li>
+                        <li>Sử dụng các thẻ HTML như <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;img&gt;</code>, <code>&lt;a&gt;</code>.</li>
+                        <li>Lưu file HTML với tên <code>Lab1_[HọTênSinhViên].html</code> vào ổ D.</li>
+                    </ol>
+                    <h5>Hướng dẫn nộp bài:</h5>
+                    <ul>
+                        <li>Đưa file lên GitHub (tạo repo riêng cho môn học).</li>
+                        <li>Nộp file HTML gốc lên hệ thống <a href="http://hethongnopbai.dak.edu.vn/nopbai.html">Hệ thống nộp bài</a>.</li>
+                        <li>Quay video trình bày bài tập (sử dụng OBS, có camera hình cá nhân) và đăng lên YouTube hoặc Zalo.</li>
+                    </ul>
                 </div>
             </div>
+
+            <!-- Bài 2 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>Bài 2: HTML - Ngôn ngữ đánh dấu siêu văn bản</h3>
+                    <ul>
+                        <li>Các thẻ cơ bản trong HTML: <code>&lt;div&gt;</code>, <code>&lt;span&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;a&gt;</code>, v.v.</li>
+                        <li>Các thẻ định dạng văn bản và liên kết.</li>
+                        <li>Tạo bảng, form và danh sách trong HTML.</li>
+                    </ul>
+                    <h4>Bài lab 2: Xây dựng trang web với các thẻ HTML cơ bản</h4>
+                    <ul>
+                        <li>Thiết kế một trang web cá nhân sử dụng các thẻ HTML cơ bản.</li>
+                    </ul>
+                    <h5>Hướng dẫn chi tiết:</h5>
+                    <ol>
+                        <li>Tạo một trang web thông tin lớp học, bao gồm danh sách các thành viên và thời khóa biểu.</li>
+                        <li>Sử dụng các thẻ <code>&lt;table&gt;</code>, <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;form&gt;</code> để trình bày nội dung.</li>
+                        <li>Lưu file HTML với tên <code>Lab2_[HọTênSinhViên].html</code> vào ổ D.</li>
+                    </ol>
+                    <h5>Hướng dẫn nộp bài:</h5>
+                    <ul>
+                        <li>Đưa file lên GitHub.</li>
+                        <li>Nộp file gốc lên hệ thống <a href="http://hethongnopbai.dak.edu.vn/nopbai.html">Hệ thống nộp bài</a>.</li>
+                        <li>Quay video trình bày bài tập (OBS, có camera hình cá nhân) và đăng lên YouTube hoặc Zalo.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bài 3 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>Bài 3: CSS - Cascading Style Sheets</h3>
+                    <ul>
+                        <li>Khái niệm về CSS và vai trò của CSS trong thiết kế giao diện web.</li>
+                        <li>Định dạng văn bản: phông chữ, màu sắc, kích thước chữ.</li>
+                        <li>CSS Selectors: ID, Class, Tag.</li>
+                        <li>CSS Box Model: margin, border, padding, content.</li>
+                    </ul>
+                    <h4>Bài lab 3: Tạo giao diện trang web với CSS</h4>
+                    <ul>
+                        <li>Sử dụng CSS để thay đổi giao diện của trang web đã tạo ở bài lab 2.</li>
+                    </ul>
+                    <h5>Hướng dẫn chi tiết:</h5>
+                    <ol>
+                        <li>Thêm các thuộc tính CSS để thay đổi màu sắc nền, phông chữ và các kích thước của các thành phần.</li>
+                        <li>Thử nghiệm với các thuộc tính khác nhau như <code>border</code>, <code>padding</code>, <code>margin</code>.</li>
+                        <li>Lưu file CSS với tên <code>style.css</code> và liên kết vào file HTML.</li>
+                    </ol>
+                    <h5>Hướng dẫn nộp bài:</h5>
+                    <ul>
+                        <li>Đưa file lên GitHub.</li>
+                        <li>Nộp file gốc lên hệ thống <a href="http://hethongnopbai.dak.edu.vn/nopbai.html">Hệ thống nộp bài</a>.</li>
+                        <li>Quay video trình bày bài tập (OBS, có camera hình cá nhân) và đăng lên YouTube hoặc Zalo.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bài 4 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>Bài 4: JavaScript - Lập trình trên trình duyệt</h3>
+                    <ul>
+                        <li>Giới thiệu về JavaScript và cách tích hợp vào trang web.</li>
+                        <li>Các lệnh điều kiện, vòng lặp trong JavaScript.</li>
+                        <li>Xử lý sự kiện: click, mouseover, keypress, v.v.</li>
+                        <li>Thực hiện các thao tác cơ bản với DOM (Document Object Model).</li>
+                    </ul>
+                    <h4>Bài lab 4: Tạo tương tác với JavaScript</h4>
+                    <ul>
+                        <li>Sử dụng JavaScript để thay đổi nội dung trang web dựa trên sự kiện người dùng.</li>
+                    </ul>
+                    <h5>Hướng dẫn chi tiết:</h5>
+                    <ol>
+                        <li>Thêm sự kiện click để thay đổi nội dung văn bản trên trang web.</li>
+                        <li>Thực hiện một số phép toán cơ bản bằng JavaScript và hiển thị kết quả trên giao diện.</li>
+                    </ol>
+                    <h5>Hướng dẫn nộp bài:</h5>
+                    <ul>
+                        <li>Đưa file lên GitHub.</li>
+                        <li>Nộp file gốc lên hệ thống <a href="http://hethongnopbai.dak.edu.vn/nopbai.html">Hệ thống nộp bài</a>.</li>
+                        <li>Quay video trình bày bài tập (OBS, có camera hình cá nhân) và đăng lên YouTube hoặc Zalo.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bài 5 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>Bài 5: Bootstrap - Framework hỗ trợ thiết kế giao diện nhanh chóng</h3>
+                    <ul>
+                        <li>Giới thiệu về Bootstrap và các thành phần cơ bản như lưới, nút, bảng, form, v.v.</li>
+                        <li>Sử dụng các lớp của Bootstrap để tạo giao diện đẹp và dễ sử dụng.</li>
+                        <li>Tạo giao diện đáp ứng (responsive) với Bootstrap.</li>
+                    </ul>
+                    <h4>Bài lab 5: Xây dựng giao diện web với Bootstrap</h4>
+                    <ul>
+                        <li>Chuyển đổi trang web đã tạo ở các bài trước thành giao diện đáp ứng với Bootstrap.</li>
+                    </ul>
+                    <h5>Hướng dẫn chi tiết:</h5>
+                    <ol>
+                        <li>Thêm các lớp của Bootstrap như <code>container</code>, <code>row</code>, <code>col</code> để bố trí các phần tử trên trang.</li>
+                        <li>Sử dụng các lớp của Bootstrap để tạo nút, bảng, form, và danh sách.</li>
+                    </ol>
+                    <h5>Hướng dẫn nộp bài:</h5>
+                    <ul>
+                        <li>Đưa file lên GitHub.</li>
+                        <li>Nộp file gốc lên hệ thống <a href="http://hethongnopbai.dak.edu.vn/nopbai.html">Hệ thống nộp bài</a>.</li>
+                        <li>Quay video trình bày bài tập (OBS, có camera hình cá nhân) và đăng lên YouTube hoặc Zalo.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bài 6 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>Bài 6: jQuery - Thư viện JavaScript mạnh mẽ</h3>
+                    <ul>
+                        <li>Cài đặt và sử dụng jQuery để thao tác với DOM.</li>
+                        <li>Sử dụng jQuery để xử lý sự kiện và thay đổi giao diện.</li>
+                    </ul>
+                    <h4>Bài lab 6: Thêm tính năng tương tác với jQuery</h4>
+                    <ul>
+                        <li>Sử dụng jQuery để thay đổi giao diện trang web khi người dùng tương tác.</li>
+                    </ul>
+                    <h5>Hướng dẫn chi tiết:</h5>
+                    <ol>
+                        <li>Thêm hiệu ứng ẩn/hiện cho các phần tử khi người dùng click vào nút.</li>
+                        <li>Thực hiện một số hiệu ứng động như chuyển đổi màu nền, thay đổi kích thước các phần tử.</li>
+                    </ol>
+                    <h5>Hướng dẫn nộp bài:</h5>
+                    <ul>
+                        <li>Đưa file lên GitHub.</li>
+                        <li>Nộp file gốc lên hệ thống <a href="http://hethongnopbai.dak.edu.vn/nopbai.html">Hệ thống nộp bài</a>.</li>
+                        <li>Quay video trình bày bài tập (OBS, có camera hình cá nhân) và đăng lên YouTube hoặc Zalo.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bài 7 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>Bài 7: Tạo Website Tương Tác và Tối Ưu Hóa</h3>
+                    <ul>
+                        <li>Phát triển các tính năng nâng cao cho trang web: forms, validation, v.v.</li>
+                        <li>Tối ưu hóa giao diện web cho các thiết bị di động.</li>
+                    </ul>
+                    <h4>Bài lab 7: Xây dựng website hoàn chỉnh</h4>
+                    <ul>
+                        <li>Thiết kế một trang web hoàn chỉnh, có tính tương tác và đáp ứng trên nhiều thiết bị.</li>
+                    </ul>
+                    <h5>Hướng dẫn chi tiết:</h5>
+                    <ol>
+                        <li>Thêm form đăng ký, đăng nhập, và các tính năng tương tác khác.</li>
+                        <li>Tối ưu hóa trang web để sử dụng tốt trên điện thoại di động và máy tính bảng.</li>
+                    </ol>
+                    <h5>Hướng dẫn nộp bài:</h5>
+                    <ul>
+                        <li>Đưa file lên GitHub.</li>
+                        <li>Nộp file gốc lên hệ thống <a href="http://hethongnopbai.dak.edu.vn/nopbai.html">Hệ thống nộp bài</a>.</li>
+                        <li>Quay video trình bày bài tập (OBS, có camera hình cá nhân) và đăng lên YouTube hoặc Zalo.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bài 8 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>Bài 8: Phát Triển Dự Án Cuối Khóa</h3>
+                    <ul>
+                        <li>Hoàn thiện dự án cuối khóa.</li>
+                        <li>Trình bày và bảo vệ dự án trước giảng viên.</li>
+                    </ul>
+                    <h4>Bài lab 8: Dự án cuối khóa</h4>
+                    <ul>
+                        <li>Xây dựng một trang web phức tạp hơn, với nhiều tính năng và giao diện đẹp.</li>
+                    </ul>
+                    <h5>Hướng dẫn chi tiết:</h5>
+                    <ol>
+                        <li>Hoàn thành dự án, kiểm tra tính tương thích trên các thiết bị.</li>
+                        <li>Chỉnh sửa và tối ưu hóa mã nguồn.</li>
+                    </ol>
+                    <h5>Hướng dẫn nộp bài:</h5>
+                    <ul>
+                        <li>Đưa file lên GitHub.</li>
+                        <li>Nộp file gốc lên hệ thống <a href="http://hethongnopbai.dak.edu.vn/nopbai.html">Hệ thống nộp bài</a>.</li>
+                        <li>Quay video trình bày dự án (OBS, có camera hình cá nhân) và đăng lên YouTube hoặc Zalo.</li>
+                    </ul>
+                </div>
+            </div>
+
         </section>
 
-        <footer class="text-center">
+        <section>
+            <h2>Hướng dẫn làm bài và nộp bài</h2>
+            <ol>
+                <li><strong>Sử dụng OBS</strong> để quay lại bài tập kèm camera hình cá nhân trong quá trình thực hiện.</li>
+                <li>Lưu bài lên máy tính tại ổ đĩa D với tên sinh viên và tên bài tập.</li>
+                <li>Đưa bài tập lên GitHub để lưu trữ và quản lý phiên bản.</li>
+                <li>Nộp bài lên hệ thống của thầy Tuấn: <a href="http://hethongnopbai.dak.edu.vn/nopbai.html">hethongnopbai.dak.edu.vn/nopbai.html</a></li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Lưu ý:</h2>
+            <ul>
+                <li>Video bài tập được chỉnh sửa và đưa lên mạng xã hội như YouTube, Zalo,... sẽ được cộng điểm cộng.</li>
+                <li>Sinh viên có bài tập sáng tạo và khác biệt được thầy khen thưởng.</li>
+            </ul>
+        </section>
+ <footer class="text-center">
             <h3 class="h4">Thông tin</h3>
             <ul class="list-unstyled">
                 <li><a href="http://hoangquoctuan.net" target="_blank">Hoàng Quốc Tuấn</a></li>
@@ -203,7 +291,10 @@
         </footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Link Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pzjw8f+ua7Kw1TIq0p5D1mWJX5+2Epk9zRnggZb+v0IsOpX1Ydq6AxpH6No0Jl8D" crossorigin="anonymous"></script>
 </body>
 
 </html>
+
