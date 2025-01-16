@@ -116,5 +116,12 @@ Môn học Lập Trình Giao Diện Web trang bị cho sinh viên các kiến th
 - 30%: Kiểm tra cuối kỳ.
 
 ---
+## Thông tin liên hệ:
+- [Hoàng Quốc Tuấn](http://hoangquoctuan.net)
+- [Công ty thiết kế web tại Đắk Lắk](http://daksystem.net)
+- [Thiết kế website tại Đắk Lắk](http://dakdesign.net)
+
+---
+*Lưu ý*: Thông tin chi tiết về môn học có thể thay đổi theo từng kỳ học, vui lòng tham khảo giảng viên và tài liệu chính thức của trường.
 
 Hy vọng bạn sẽ có một trải nghiệm học tập tuyệt vời trong môn học này!
