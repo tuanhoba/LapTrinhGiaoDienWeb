@@ -6,8 +6,9 @@
 
 ## Hướng dẫn viết mã HTML nhanh
 
-Tham khảo tệp **CachVietMaHTMLnhanh.md** trong thư mục **lab**. Tệp này cung cấp các mẹo, phím tắt và cú pháp để giúp viết mã HTML nhanh chóng và hiệu quả.
-[Hướng dẫn viết mã HTML nhanh](./lab/CachVietMaHTMLnhanh.md)
+Tham khảo tệp **[CachVietMaHTMLnhanh.md](./lab/CachVietMaHTMLnhanh.md)** trong thư mục **lab**.  
+Tệp này cung cấp các mẹo, phím tắt và cú pháp để giúp viết mã HTML nhanh chóng và hiệu quả.
+
 ---
 
 ## Mục tiêu khóa học
@@ -126,3 +127,18 @@ Tham khảo tệp **CachVietMaHTMLnhanh.md** trong thư mục **lab**. Tệp nà
 
 - Video bài tập được chỉnh sửa và đưa lên mạng xã hội như YouTube, Zalo,... sẽ được cộng điểm cộng.
 - Sinh viên có bài tập sáng tạo, chất lượng sẽ được xem xét tuyển đi thi đấu và miễn thi cuối kỳ.
+
+---
+
+**Tham khảo nhanh**: [CachVietMaHTMLnhanh.md](./lab/CachVietMaHTMLnhanh.md)
+
+## Đánh giá và chứng chỉ
+- Bài kiểm tra cuối khóa: Thực hành trên máy tính.
+- Học viên đạt yêu cầu sẽ nhận chứng chỉ hoàn thành khóa học từ Thạc sĩ Hoàng Quốc Tuấn.
+
+---
+
+## Thông tin
+- [Hoàng Quốc Tuấn](http://hoangquoctuan.net)
+- [Công ty thiết kế web tại Đắk Lắk](http://daksystem.net)
+- [Thiết kế website tại Đắk Lắk](http://dakdesign.net)
