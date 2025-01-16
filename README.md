@@ -220,7 +220,7 @@ Môn học Lập Trình Giao Diện Web trang bị cho sinh viên các kiến th
 
 ---
 
-**Tham khảo nhanh**: [CachVietMaHTMLnhanh.md](./lab/CachVietMaHTMLnhanh.md)
+**Tham khảo nhanh**: [CachVietMaHTMLnhanh.md](https://github.com/tuanhoba/LapTrinhGiaoDienWeb/blob/main/Lab/CachVietMaHTMLnhanh.md)
 
 ## Đánh giá và chứng chỉ
 - Bài kiểm tra cuối khóa: Thực hành trên máy tính.
